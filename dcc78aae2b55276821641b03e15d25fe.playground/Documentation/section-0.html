@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Section 1</title>
+  <meta id="xcode-display" name="xcode-display" content="render">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div class="content-wrapper">
+  <section class="section">
+    <noscript><div id="noscript-padding"></div></noscript>
+
+<div class="topbar">
+
+<div class="topbar-wrapper">
+
+<div class="js-topbar-dialog-corral">
+
+<div class="topbar-dialog siteSwitcher-dialog dno">
+
+<div class="header">
+
+### <a href="//stackoverflow.com">current community</a>
+
+</div>
+
+<div class="modal-content current-site-container">
+
+*   <div class="related-links"><a href="http://chat.stackoverflow.com">chat</a> <a href="http://blog.stackoverflow.com">blog</a></div>
+
+<pre><code>[Stack Overflow](//stackoverflow.com)
+</code></pre><ul>
+<li><div class="L-shaped-icon-container"><span class="L-shaped-icon"></span></div>
+
+<p><a href="http://meta.stackoverflow.com">Meta Stack Overflow</a></p>
+</li>
+<li><div class="L-shaped-icon-container"><span class="L-shaped-icon"></span></div>
+
+<p><a href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=multicollider">Stack Overflow Careers</a></p>
+</li>
+</ul>
+<p></div></p>
+<div class="header" id="your-communities-header">
+
+### your communities
+
+</div>
+
+<div class="modal-content" id="your-communities-section">
+
+<div class="call-to-login"><a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f30235082%2fstoring-values-in-completionhandlers-swift">Sign up</a> or <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f30235082%2fstoring-values-in-completionhandlers-swift">log in</a> to customize your list.</div>
+
+<p></div></p>
+<div class="header">
+
+### <a href="//stackexchange.com/sites">more stack exchange communities</a>
+
+</div>
+
+<p></div></p>
+<p></div></p>
+<div class="network-items"><a href="//stackexchange.com" title="A list of all 144 Stack Exchange sites"><span class="hidden-text">Stack Exchange</span></a></div>
+
+<div class="topbar-links">
+
+<div class="links-container"><span class="topbar-menu-links"><a href="https://stackoverflow.com/users/signup?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f30235082%2fstoring-values-in-completionhandlers-swift">sign up</a> <a href="https://stackoverflow.com/users/login?returnurl=http%3a%2f%2fstackoverflow.com%2fquestions%2f30235082%2fstoring-values-in-completionhandlers-swift">log in</a> <a href="/tour">tour</a> <a href="#" title="Help Center and other resources">help<span class="triangle"></span></a>
+
+<div class="topbar-dialog help-dialog js-help-dialog dno">
+
+<div class="modal-content">
+
+<em>   <a href="/tour">Tour <span class="item-summary">Start here for a quick overview of the site</span></a>
+</em>   <a href="/help">Help Center <span class="item-summary">Detailed answers to any questions you might have</span></a>
+*   <a href="//meta.stackoverflow.com">Meta <span class="item-summary">Discuss the workings and policies of this site</span></a>
+
+</div>
+
+<p></div></p>
+<p><a href="//careers.stackoverflow.com?utm_source=stackoverflow.com&amp;utm_medium=site-ui&amp;utm_campaign=anon-topbar">stack overflow careers</a></span></div></p>
+<p></div></p>
+<p></div></p>
+<p></div></p>
+<script>StackExchange.ready(function() { StackExchange.topbar.init(); });</script>
+
+<div class="container">
+
+<div id="header"><br>
+<div id="hlogo"><a href="/">Stack Overflow</a></div>
+
+<div id="hmenus">
+
+<div class="nav mainnavs">
+
+<em>   <a href="/questions">Questions</a>
+</em>   <a href="/tags">Tags</a>
+<em>   <a href="/users">Users</a>
+</em>   <a href="/help/badges">Badges</a>
+*   <a href="/unanswered">Unanswered</a>
+
+</div>
+
+<div class="nav askquestion">
+
+*   <a href="/questions/ask">Ask Question</a>
+
+</div>
+
+<p></div></p>
+<p></div></p>
+<div id="content" class="snippet-hidden">
+
+<div itemscope="" itemtype="http://schema.org/Question"><link itemprop="image" href="//cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png?v=41f6e13ade69">
+
+<div id="herobox-mini">
+
+<div id="hero-content"><span id="controls"><a href="/tour">Take the 2-minute tour</a> <span id="close"><a title="click to dismiss">×</a></span></span>
+
+<div id="blurb">Stack Overflow is a question and answer site for professional and enthusiast programmers. It&#39;s 100% free, no registration required.</div>
+
+<p></div></p>
+<script>$('#tell-me-more').click(function () { var clickSource = $("body").attr("class") + '-mini'; if ($("body").hasClass("questions-page")) { clickSource = 'questionpagemini'; } else if ($("body").hasClass("question-page")) { clickSource = 'questionpagemini'; } else if ($("body").hasClass("home-page")) { clickSource = 'homepagemini'; } StackExchange.using("gps", function () { StackExchange.gps.track("aboutpage.click", { aboutclick_location: clickSource } , true); }); }); $('#herobox-mini #close').click(function () { StackExchange.using("gps", function () { StackExchange.gps.track("hero.action", { hero_action_type: "close" }, true); }); $.cookie("hero", "none", { path: "/", expires: 365 }); var $hero = $("#herobox-mini"); $hero.slideUp('fast', function () { $hero.remove(); }); return false; });</script></div>
+
+<div id="question-header">
+
+# [Storing values in completionHandlers - Swift](/questions/30235082/storing-values-in-completionhandlers-swift)
+
+</div>
+
+<div id="mainbar">
+
+<div class="question" data-questionid="30235082" id="question"><script>var ados = ados || {};ados.run = ados.run || []; ados.run.push(function() { ados_add_placement(22,8277,"adzerk1572933462",4).setZone(43) ; });</script>
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td class="votecell">
+
+<div class="vote"><input type="hidden" name="_id_" value="30235082"><a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a> <span itemprop="upvoteCount" class="vote-count-post ">0</span> <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a> <a href="#" title="This is a favorite question (click again to undo)">favorite</a></div>
+
+</td>
+
+<td class="postcell">
+
+<div>
+
+<div class="post-text" itemprop="text">
+
+I am creating a <code>completionHandler</code> which returns a Dictionary but when I call this method in another class the value of it is nil.
+
+    func fetchLatestPosts(completionHandler: (responseDict: NSDictionary) -&gt; Void in {
+    // Bunch of JSON Parsing for dictionary to be completed
+    var theDictionary = JSON Dictionary value
+    responseDict = theDictionary as NSDictionary
+    }
+
+Then I am attempting to call it in another class so that the value that <code>fetchLatestPost</code> Dictionary can be viewed and data presented based on that. For Example,
+
+    func parseDictionary() {
+    NetworkManager.sharedInstance.fetchLatestPosts(responseDict: NSDictionary)
+    if (responseDict != nil) {
+    println(&quot;Dictionary is not empty&quot;)
+    }
+
+The issue here is that when I am calling the <code>fetchLatestPosts</code> function I am receiving a <code>nil</code> value when attempting to call the Dictionary.
+
+In short, my question is how can I assign values to the completion handler are stored and can be called elsewhere within the Xcode project?
+
+</div>
+
+<div class="post-taglist"><a href="/questions/tagged/swift" title="show questions tagged &#39;swift&#39;">swift</a></div>
+
+<table class="fw">
+
+<tbody>
+
+<tr>
+
+<td class="vt">
+
+<div class="post-menu"><a href="/q/30235082" title="short permalink to this question">share</a><span class="lsep">|</span><a href="/posts/30235082/edit">improve this question</a></div>
+
+</td>
+
+<td align="right" class="post-signature">
+
+<div class="user-info ">
+
+<div class="user-action-time"><a href="/posts/30235082/revisions" title="show all edits to this post">edited <span title="2015-05-14 11:04:28Z" class="relativetime">5 hours ago</span></a></div>
+
+</div>
+
+</td>
+
+<td class="post-signature owner">
+
+<div class="user-info ">
+
+<div class="user-action-time">asked <span title="2015-05-14 10:31:31Z" class="relativetime">6 hours ago</span></div>
+
+<div class="user-gravatar32"><a href="/users/4719304/jack">
+
+<div class="gravatar-wrapper-32"><img src="https://www.gravatar.com/avatar/142ebf236ef72a9de708dcd40ca28602?s=32&amp;d=identicon&amp;r=PG" alt=""></div>
+
+</a></div>
+
+<div class="user-details"><a href="/users/4719304/jack">Jack</a><br> <span class="reputation-score" title="reputation score " dir="ltr">8</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span></div>
+
+</div>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p></div></p>
+<p></td></p>
+<p></tr></p>
+<tr>
+
+<td>
+
+<div id="comments-30235082" class="comments  dno">
+
+<table></table>
+
+</div>
+
+<div id="comments-link-30235082" data-rep="50" data-anon="true"><a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a><span class="js-link-separator dno"> | </span><a href="#" title="expand to show all comments on this post"></a></div>
+
+</td>
+
+</tr>
+
+<p></tbody></p>
+<p></table></p>
+<p></div></p>
+<div id="answers"><a name="tab-top"></a>
+
+<div id="answers-header">
+
+<div class="subheader answers-subheader">
+
+## 1 Answer <span style="display:none;" itemprop="answerCount">1</span>
+
+<div>
+
+<div id="tabs"><a href="/questions/30235082/storing-values-in-completionhandlers-swift?answertab=active#tab-top" title="Answers with the latest activity first">active</a> <a href="/questions/30235082/storing-values-in-completionhandlers-swift?answertab=oldest#tab-top" title="Answers in the order they were provided">oldest</a> <a href="/questions/30235082/storing-values-in-completionhandlers-swift?answertab=votes#tab-top" title="Answers with the highest score first">votes</a></div>
+
+<p></div></p>
+<p></div></p>
+<p></div></p>
+<p><a name="30235391"></a></p>
+<div id="answer-30235391" class="answer" data-answerid="30235391" itemscope="" itemtype="http://schema.org/Answer">
+
+<table>
+
+<tbody>
+
+<tr>
+
+<td class="votecell">
+
+<div class="vote"><input type="hidden" name="_id_" value="30235391"><a class="vote-up-off" title="This answer is useful">up vote</a> <span itemprop="upvoteCount" class="vote-count-post ">2</span> <a class="vote-down-off" title="This answer is not useful">down vote</a></div>
+
+<p></td></p>
+<td class="answercell">
+
+<div class="post-text" itemprop="text">
+
+Your question is garbled. Your sample code isn&#39;t valid, and does not show a completion handler in use.
+
+I suspect you misunderstand how async requests and completion handlers work. Here is the sequence.
+
+1.  Call a function and provide a completion handler
+2.  Function returns immediately, and at a time in the future beings running request
+3.  Next line after completion handler runs before request even begun processing. Your app continues to run. No result available because the request has not completed yet.
+4.  Async request finally finishes. original method invokes completion handler. NOW the result is available, in the code in the completion handler. The completion handler code does whatever is needed to handle the results.
+
+Here is a realistic example of how an async process with completion handlers might work:
+
+First a class AsyncManager that simulates downloading an image from the internet:
+
+    class AsyncManager
+    {
+      static let sharedAsyncManager = AsyncManager()
+
+      func asyncFetchImage(#imageName: String, completion: (image: UIImage?, status: String) -&gt; ())
+      {
+        println(&quot;Entering (<strong>FUNCTION</strong>)&quot;)
+
+        //Simulate a network operation by waiting 1 second before loading an image
+        let nSecDispatchTime = dispatch<em>time(DISPATCH<em>TIME_NOW, 
+          Int64(3.0 * Double(NSEC_PER_SEC)))
+        let queue = dispatch_get_main_queue()
+        dispatch_after(nSecDispatchTime, queue)
+          {
+            () -&gt; Void in
+            let result = UIImage(named: imageName)
+            println(&quot;Loading image in background&quot;)
+            let status = result != nil ? &quot;image loaded&quot; : &quot;Error loading image&quot;
+            println(&quot;About to call completion handler&quot;)
+            completion(image: result, status: status)
+        }
+        println(&quot;Leaving (__FUNCTION</em></em>)&quot;)
+      }
+    }
+
+It is a singleton. It has a static let sharedAsyncManager that you use to fetch a single instance of the AsyncManager.
+
+The AsyncManager provide a single method, asyncFetchImage, that takes an image name and a completion block. The function doesn&#39;t return any result, because it returns immediately, before the image load has taken place.
+
+The code doesn&#39;t really download the image from the internet. Instead it simply uses the GCD call dispatch_after to wait 3 seconds before loading an image and invoking the completion block.
+
+Now I create a ViewController class and give it a &quot;Load Image&quot; button. I create an <code>IBOutlet</code> <code>theImageView</code>to a <code>UIImageView</code> that will display the image I&#39;m going to load.
+
+I write an IBAction method for the Load Image button. Here&#39;s what that IBAction looks like:
+
+    @IBAction func loadImage(sender: UIButton)
+    {
+      let theAsyncManager = AsyncManager.sharedAsyncManager
+      println(&quot;about to call asyncFetchImage&quot;)
+      theAsyncManager.asyncFetchImage(imageName: &quot;wareto_blue_150x115&quot;)
+        {
+          (image, status) -&gt; () in
+          println(&quot;Beginning completion block&quot;)
+          self.theImageView.image = image
+          println(&quot;In completion block, status = (status)&quot;)
+        }
+        println(&quot;After call to asyncFetchImage&quot;)
+      }
+    }
+
+Now, the fun part. Here&#39;s the sequence of events:
+
+I press the loadImage button. The IBAction method runs.
+
+It gets a reference to the async download manager singleton.
+
+It displays a message, then calls theAsyncManager.asyncFetchImage. The AsyncManager.asyncFetchImage method displays a message on entry, queues up a call to load the image 3 seconds later, displays a &quot;leaving&quot; message, and returns, <strong>before the image is loaded</strong>. There is nothing to return, because the image loading code hasn&#39;t run yet.
+
+The view controller&#39;s loadImage method displays it&#39;s &quot;After call to asyncFetchImage&quot; message and returns.
+
+A few seconds later, the code inside asyncFetchImage actually runs. It displays a message, loads the image, then invokes the completion handler.
+
+Here is the set of messages you get back when you run the code above:
+
+    about to call asyncFetchImage
+    Entering asyncFetchImage(imageName:completion:)
+    Leaving asyncFetchImage(imageName:completion:)
+    After call to asyncFetchImage
+    Loading image in background
+    About to call completion handler
+    Beginning completion block
+    In completion block, status = image loaded
+
+Note that the last line of the loadImage IBAction:
+
+    println(&quot;After call to asyncFetchImage&quot;)
+
+displays a message before the message about loading an image is displayed. The code call to asyncFetchImage returns immediately, before any work is done. The code after the call to asyncFetchImage runs next, but the image still hasn&#39;t loaded. There&#39;s no way to return a result at this point, because the image load is hasn&#39;t even started yet.
+
+</div>
+
+<table class="fw">
+
+<tbody>
+
+<tr>
+
+<td class="vt">
+
+<div class="post-menu"><a href="/a/30235391" title="short permalink to this answer">share</a><span class="lsep">|</span><a href="/posts/30235391/edit">improve this answer</a></div>
+
+</td>
+
+<td align="right" class="post-signature">
+
+<div class="user-info ">
+
+<div class="user-action-time"><a href="/posts/30235391/revisions" title="show all edits to this post">edited <span title="2015-05-14 13:37:47Z" class="relativetime">3 hours ago</span></a></div>
+
+</div>
+
+</td>
+
+<td align="right" class="post-signature">
+
+<div class="user-info user-hover">
+
+<div class="user-action-time">answered <span title="2015-05-14 10:47:51Z" class="relativetime">6 hours ago</span></div>
+
+<div class="user-gravatar32"><a href="/users/205185/duncan-c">
+
+<div class="gravatar-wrapper-32"><img src="http://i.stack.imgur.com/H4fmR.jpg?s=32&amp;g=1" alt=""></div>
+
+</a></div>
+
+<div class="user-details"><a href="/users/205185/duncan-c">Duncan C</a><br> <span class="reputation-score" title="reputation score 29111" dir="ltr">29.1k</span><span title="7 gold badges"><span class="badge1"></span><span class="badgecount">7</span></span><span title="28 silver badges"><span class="badge2"></span><span class="badgecount">28</span></span><span title="71 bronze badges"><span class="badge3"></span><span class="badgecount">71</span></span></div>
+
+</div>
+
+</td>
+
+<p></tr></p>
+<p></tbody></p>
+<p></table></p>
+<p></td></p>
+<p></tr></p>
+<tr>
+
+<td>
+
+<div id="comments-30235391" class="comments ">
+
+<table>
+
+<tbody data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true">
+
+<tr id="comment-48573276" class="comment ">
+
+<td>
+
+<table></table>
+
+</td>
+
+<td class="comment-text">
+
+<div style="display: block;" class="comment-body"><span class="comment-copy">sorry, check the updated code. I missed out a line.</span> –  <a href="/users/4719304/jack" title="8 reputation">Jack</a> <span class="comment-date" dir="ltr"><span title="2015-05-14 11:04:43Z" class="relativetime-clean">5 hours ago</span></span><span class="edited-yes" title="this comment was edited 1 time"></span></div>
+
+</td>
+
+</tr>
+
+<tr id="comment-48573912" class="comment ">
+
+<td>
+
+<table></table>
+
+</td>
+
+<td class="comment-text">
+
+<div style="display: block;" class="comment-body"><span class="comment-copy">You still don&#39;t understand how completion blocks work.</span> –  <a href="/users/205185/duncan-c" title="29111 reputation">Duncan C</a> <span class="comment-date" dir="ltr"><span title="2015-05-14 11:22:38Z" class="relativetime-clean">5 hours ago</span></span></div>
+
+</td>
+
+</tr>
+
+<tr id="comment-48576577" class="comment ">
+
+<td>
+
+<table></table>
+
+</td>
+
+<td class="comment-text">
+
+<div style="display: block;" class="comment-body"><span class="comment-copy">most likely yeah, i&#39;m new to programming sorry.</span> –  <a href="/users/4719304/jack" title="8 reputation">Jack</a> <span class="comment-date" dir="ltr"><span title="2015-05-14 12:33:30Z" class="relativetime-clean">4 hours ago</span></span></div>
+
+</td>
+
+</tr>
+
+<tr id="comment-48579076" class="comment ">
+
+<td>
+
+<table></table>
+
+</td>
+
+<td class="comment-text">
+
+<div style="display: block;" class="comment-body"><span class="comment-copy">See my edits. I added code from a working example that show how completion handlers actually work.</span> –  <a href="/users/205185/duncan-c" title="29111 reputation">Duncan C</a> <span class="comment-date" dir="ltr"><span title="2015-05-14 13:38:19Z" class="relativetime-clean">3 hours ago</span></span></div>
+
+</td>
+
+</tr>
+
+<tr id="comment-48584566" class="comment ">
+
+<td>
+
+<table></table>
+
+</td>
+
+<td class="comment-text">
+
+<div style="display: block;" class="comment-body"><span class="comment-copy">@Jack, I created a demo project on Github called <a href="https://github.com/DuncanMC/SwiftCompletionHandlers.git"><strong>SwiftCompletionHandlers</strong></a> that illustrates how completion handlers work. The code in my edit is taken from that project. I suggest you download it and run it. Add breakpoints if you don&#39;t understand how the flow of control works.</span> –  <a href="/users/205185/duncan-c" title="29111 reputation">Duncan C</a> <span class="comment-date" dir="ltr"><span title="2015-05-14 15:48:51Z" class="relativetime-clean">1 hour ago</span></span></div>
+
+</td>
+
+</tr>
+
+<p></tbody></p>
+<p></table></p>
+<p></div></p>
+<div id="comments-link-30235391" data-rep="50" data-anon="true"><a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a><span class="js-link-separator dno"> | </span><a href="#" title="expand to show all comments on this post"></a></div>
+
+<p></td></p>
+<p></tr></p>
+<p></tbody></p>
+<p></table></p>
+<p></div></p>
+<p><a name="new-answer"></a></p>
+<h2 id="not-the-answer-you-re-looking-for-browse-other-questions-tagged-swift-questions-tagged-swift-show-questions-tagged-swift-or-ask-your-own-question-questions-ask-">Not the answer you&#39;re looking for? Browse other questions tagged <a href="/questions/tagged/swift" title="show questions tagged &#39;swift&#39;">swift</a> or <a href="/questions/ask">ask your own question</a>.</h2>
+<p></div></p>
+<p></div></p>
+<div id="sidebar" class="show-votes">
+
+<div class="module question-stats">
+
+<table id="qinfo">
+
+<tbody>
+
+<tr>
+
+<td>
+
+asked
+
+</td>
+
+<td style="padding-left: 10px">
+
+<strong>today</strong>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+viewed
+
+</td>
+
+<td style="padding-left: 10px">
+
+<strong>38 times</strong>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+active
+
+</td>
+
+<td style="padding-left: 10px">
+
+<strong><a href="?lastactivity" title="2015-05-14 13:37:47Z">today</a></strong>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<div class="module community-bulletin" data-tracker="cb=1">
+
+<div class="related">
+
+<div class="bulletin-title">Blog</div>
+
+<hr>
+<div class="spacer">
+
+<div class="bulletin-item-type"><a href="http://blog.stackoverflow.com/2015/05/stack-exchange-podcast-64-not-recorded-in-ithaca/"></a></div>
+
+<div class="bulletin-item-content"><a href="http://blog.stackoverflow.com/2015/05/stack-exchange-podcast-64-not-recorded-in-ithaca/">Stack Exchange Podcast #64: Diverse Hiring and a Cat Named Alan Turing</a></div>
+
+<p></div></p>
+<p></div></p>
+<p></div></p>
+<script>var ados = ados || {};ados.run = ados.run || []; ados.run.push(function() { ados_add_placement(22,8277,"adzerk1181142976",[17,2221]).setZone(45) ; });</script>
+
+<div id="hireme"><script>;(function(i){var a=window.$,d=20,m=2000,f=&quot;#sidebar [id^=&#39;adzerk&#39;].everyonelovesstackoverflow&quot;,l=&quot;div#hireme,div.hireme&quot;,t=setTimeout,c=i.adurl,r=i.azw,g=i.azt,u=function(){return new Date().getTime()},s=u();function j(x){var y={},z=window.StackExchange,w=decodeURIComponent,A;if(x.length&gt;1){x.substr(1).split(&quot;&amp;&quot;).forEach(function(B){var C=B.split(&quot;=&quot;);this[w(C[0])]=w(C[1])},y)}var v=y.ac||y.accountid||(z&amp;&amp;z.options&amp;&amp;z.options.user&amp;&amp;z.options.user.accountId);if(v){y.ac=v}if(!y.tags){A=a(&quot;.post-taglist .post-tag&quot;).map(function(){return a(this).text()});if(A.length&gt;0){y.tags=Array.prototype.join.call(A,&quot;;&quot;)}}if(x===&quot;#large&quot;){y.l=1}if(x===&quot;#abort&quot;){y.abort=1}return y}function k(v){return a(v).html().replace(/\s+/g,&quot;&quot;).length&gt;0}var b=false;function o(A,w){if(b){return}b=true;var v=a(l),x=document,y=encodeURIComponent;clearTimeout(e);if(v.length&gt;0){if(A.l||a(&quot;#careersadsdoublehigh&quot;).length&gt;0){A.l=1}var C=v.map(function(G,F){return&quot;d=&quot;+F.id}).get().join(&quot;&amp;&quot;);var E=[&quot;l&quot;,&quot;ip&quot;,&quot;ac&quot;,&quot;eng&quot;,&quot;prov&quot;,&quot;tags&quot;,&quot;theme&quot;];var B=Object.keys(A).filter(function(F){return E.indexOf(F)!==-1}).map(function(F){return y(F)+&quot;=&quot;+y(A[F])}).join(&quot;&amp;&quot;);if(B){C+=&quot;&amp;&quot;+B}if(w){C+=&quot;&amp;azt=true&quot;}var z=u()-s;C+=&quot;&amp;lw=&quot;+z;var D=x.createElement(&quot;script&quot;);D.type=&quot;text/javascript&quot;;D.src=c+(c.indexOf(&quot;?&quot;)===-1?&quot;?&quot;:&quot;&amp;&quot;)+C;x.body.appendChild(D);window.calculonPlacerStart=new Date().getTime()}}function q(w){var v=a(w);if(!k(v)){console.log(w);v.remove()}}var n=j(location.hash);if(n.abort){return}var h=null;if(r){h=t(o,g,n,true)}function p(v){if(k(f)){if(h){clearTimeout(h)}o(v)}else{e=t(p,d,v)}}var e=t(p,d,n);t(q,m,l)}).apply(null, [{&quot;azw&quot;:false,&quot;azt&quot;:2000,&quot;adurl&quot;:&quot;//clc.stackoverflow.com/j/p&quot;}]);</script></div>
+
+<div class="module sidebar-related">
+
+#### Related
+
+<div class="related js-gps-related-questions" data-tracker="rq=1">
+
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted large">226</div>
+
+<p>](/q/24007650 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24007650/selector-in-swift">@selector() in Swift?</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted large">158</div>
+
+<p>](/q/24018327 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24018327/what-does-an-exclamation-mark-mean-in-the-swift-language">What does an exclamation mark mean in the Swift language?</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted large">275</div>
+
+<p>](/q/24024549 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24024549/dispatch-once-singleton-model-in-swift">dispatch_once singleton model in swift</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted large">448</div>
+
+<p>](/q/24101718 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24101718/swift-performance-sorting-arrays">Swift performance: sorting arrays</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted default">13</div>
+
+<p>](/q/24135605 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24135605/two-different-types-of-nil-in-swift">Two different types of nil in Swift?</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted default">0</div>
+
+<p>](/q/24233045 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24233045/how-nsanimationcontext-completionhandler-work-with-swift-language">How NSAnimationContext completionHandler work with Swift Language</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes default">4</div>
+
+<p>](/q/24792872 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/24792872/getting-data-out-of-completionhandler-in-swift-in-nsurlconnection">Getting data out of completionHandler in Swift in NSURLConnection</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes default">4</div>
+
+<p>](/q/25975073 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/25975073/swift-closures-capturing-self-as-weak">Swift Closures - Capturing self as weak</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes default">4</div>
+
+<p>](/q/26593992 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/26593992/when-does-the-copying-take-place-for-swift-value-types">When does the copying take place for swift value types</a></div></p>
+<div class="spacer">[
+
+<div class="answer-votes answered-accepted default">0</div>
+
+<p>](/q/29601394 &quot;Vote score (upvotes - downvotes)&quot;)<a href="/questions/29601394/swift-stored-values-order-is-completely-changed-in-dictionary">Swift - Stored values order is completely changed in Dictionary</a></div></p>
+<p></div></p>
+<p></div></p>
+<div id="hot-network-questions" class="module">
+
+#### <a href="//stackexchange.com/questions?tab=hot">Hot Network Questions</a>
+
+<em>   <a href="http://math.stackexchange.com/questions/1281813/computing-a-limit-of-sequence">Computing a limit of sequence</a>
+</em>   <a href="http://english.stackexchange.com/questions/246243/what-do-you-call-the-star-that-appears-before-night-evening">What do you call the star that appears before night (evening)?</a>
+<em>   <a href="http://woodworking.stackexchange.com/questions/1453/what-might-be-stronger-than-a-miter-but-still-look-like-a-miter-joint">What might be stronger than a miter but still look like a miter joint?</a>
+</em>   <a href="http://travel.stackexchange.com/questions/47534/what-is-the-purpose-of-this-cloth-in-hotel">What is the purpose of this cloth in hotel?</a>
+<em>   <a href="http://codereview.stackexchange.com/questions/90740/performing-multiple-validation-checks">Performing multiple validation checks</a>
+</em>   <a href="http://english.stackexchange.com/questions/246258/using-yodelling-to-express-mocking">Using yodelling to express mocking</a>
+<em>   <a href="http://academia.stackexchange.com/questions/45366/is-it-common-to-seek-outside-letters-for-the-third-year-renewal-of-an-assistant">Is it common to seek outside letters for the third-year renewal of an assistant professor?</a>
+</em>   <a href="http://gamedev.stackexchange.com/questions/100922/make-platforms-visibility-distinct-from-background">Make platform&#39;s visibility distinct from background</a>
+<em>   <a href="http://worldbuilding.stackexchange.com/questions/17043/how-to-keep-humans-pilots-instead-of-ai-in-sci-fi-future">How to keep humans pilots instead of AI in sci-fi future?</a>
+</em>   <a href="http://cs.stackexchange.com/questions/42544/why-does-schaefers-theorem-not-prove-that-p-np">Why does Schaefer&#39;s theorem not prove that P=NP?</a>
+<em>   <a href="http://math.stackexchange.com/questions/1281856/why-is-a-geometric-progression-called-so">Why is a geometric progression called so?</a>
+</em>   <a href="http://serverfault.com/questions/691672/is-it-possible-to-completely-prevent-access-to-a-linux-system">Is it possible to completely prevent access to a Linux system?</a>
+<em>   <a href="http://english.stackexchange.com/questions/246016/word-for-observing-something-with-the-purpose-of-gaining-knowledge-from-it">Word for &quot;observing something with the purpose of gaining knowledge from it&quot;?</a>
+</em>   <a href="http://tex.stackexchange.com/questions/244935/how-do-i-place-the-argument-of-min-below-rather-than-to-the-side">How do I place the argument of &quot;min&quot; below rather than to the side?</a>
+<em>   <a href="http://cooking.stackexchange.com/questions/57460/dissolving-sugar-in-a-beverage">Dissolving sugar in a beverage</a>
+</em>   <a href="http://stackoverflow.com/questions/30216000/why-is-faster-than-list">Why is [] faster than list()?</a>
+<em>   <a href="http://security.stackexchange.com/questions/88947/prevention-measures-against-laptop-seizure-at-us-borders">Prevention measures against laptop seizure at US borders</a>
+</em>   <a href="http://unix.stackexchange.com/questions/203354/why-does-date-print-date-with-wrong-word-order-when-localized">Why does <code>date</code> print date with wrong word order when localized?</a>
+<em>   <a href="http://chemistry.stackexchange.com/questions/31383/resonance-in-chemical-reactions">Resonance in Chemical Reactions?</a>
+</em>   <a href="http://math.stackexchange.com/questions/1281436/confusion-about-the-null-empty-set-being-contained-in-other-sets">Confusion about the null (empty) set being contained in other sets</a>
+<em>   <a href="http://lifehacks.stackexchange.com/questions/6996/how-can-i-stop-my-wipers-from-squeaking">How can I stop my wipers from squeaking?</a>
+</em>   <a href="http://skeptics.stackexchange.com/questions/27717/did-we-receive-a-signal-from-outer-space-in-1977">Did we receive a signal from outer space in 1977?</a>
+<em>   [What Exactly Is </em>Virgin<em> Vinyl?](<a href="http://musicfans.stackexchange.com/questions/759/what-exactly-is-virgin-vinyl">http://musicfans.stackexchange.com/questions/759/what-exactly-is-virgin-vinyl</a>)
+</em>   <a href="http://emacs.stackexchange.com/questions/12396/run-command-when-opening-a-file-of-a-specific-filetype">Run command when opening a file of a specific filetype</a>
+
+<a href="#">more hot questions</a></div>
+
+<p></div></p>
+<div id="feed-link">
+
+<div id="feed-link-text"><a href="/feeds/question/30235082" title="feed of this question and its answers"><span class="feed-icon"></span>question feed</a></div>
+
+<p></div></p>
+<script>StackExchange.ready(function(){$.get('/posts/30235082/ivc/ac7e');});</script>
+
+<noscript><div><img src="/posts/30235082/ivc/ac7e" class="dno" alt="" width="0" height="0"></div></noscript>
+
+<div style="display:none" id="prettify-lang">default</div>
+
+<p></div></p>
+<p></div></p>
+<p></div></p>
+<div id="footer" class="categories">
+
+<div class="footerwrap">
+
+<div id="footer-menu">
+
+<div class="top-footer-links"><a href="/tour">tour</a> <a href="/help">help</a> <a href="http://blog.stackoverflow.com?blb=1">blog</a> <a href="http://chat.stackoverflow.com">chat</a> <a href="http://data.stackexchange.com">data</a> <a href="http://stackexchange.com/legal">legal</a> <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a> <a href="http://stackexchange.com/work-here">work here</a> <a href="http://stackexchange.com/mediakit">advertising info</a> <a onclick="StackExchange.switchMobile(&quot;on&quot;)">mobile</a> <strong><a href="/contact">contact us</a></strong> <strong><a href="http://meta.stackoverflow.com">feedback</a></strong></div>
+
+<div id="footer-sites">
+
+<table>
+
+<tbody>
+
+<tr>
+
+<th colspan="3">Technology</th>
+
+<th>Life / Arts</th>
+
+<th>Culture / Recreation</th>
+
+<th>Science</th>
+
+<th>Other</th>
+
+</tr>
+
+<tr>
+
+<td>
+
+1.  <a href="//stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a>
+2.  <a href="//serverfault.com" title="system and network administrators">Server Fault</a>
+3.  <a href="//superuser.com" title="computer enthusiasts and power users">Super User</a>
+4.  <a href="//webapps.stackexchange.com" title="power users of web applications">Web Applications</a>
+5.  <a href="//askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a>
+6.  <a href="//webmasters.stackexchange.com" title="pro webmasters">Webmasters</a>
+7.  <a href="//gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a>
+8.  <a href="//tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a>
+
+</td>
+
+<td>
+
+1.  <a href="//programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a>
+2.  <a href="//unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a>
+3.  <a href="//apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a>
+4.  <a href="//wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Development</a>
+5.  <a href="//gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a>
+6.  <a href="//electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a>
+7.  <a href="//android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a>
+8.  <a href="//security.stackexchange.com" title="Information security professionals">Information Security</a>
+
+</td>
+
+<td>
+
+1.  <a href="//dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a>
+2.  <a href="//drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a>
+3.  <a href="//sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a>
+4.  <a href="//ux.stackexchange.com" title="user experience researchers and experts">User Experience</a>
+5.  <a href="//mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a>
+6.  <a href="//salesforce.stackexchange.com" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a>
+7.  <a href="http://stackexchange.com/sites#technology">more (14)</a>
+
+</td>
+
+<td>
+
+1.  <a href="//photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a>
+2.  <a href="//scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a>
+3.  <a href="//graphicdesign.stackexchange.com" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a>
+4.  <a href="//cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a>
+5.  <a href="//diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a>
+6.  <a href="//money.stackexchange.com" title="people who want to be financially literate">Personal Finance &amp; Money</a>
+7.  <a href="//academia.stackexchange.com" title="academics and those enrolled in higher education">Academia</a>
+8.  <a href="http://stackexchange.com/sites#lifearts">more (10)</a>
+
+</td>
+
+<td>
+
+1.  <a href="//english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a>
+2.  <a href="//skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a>
+3.  <a href="//judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a>
+4.  <a href="//travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a>
+5.  <a href="//christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a>
+6.  <a href="//gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a>
+7.  <a href="//bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a>
+8.  <a href="//rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a>
+9.  <a href="http://stackexchange.com/sites#culturerecreation">more (21)</a>
+
+</td>
+
+<td>
+
+1.  <a href="//math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a>
+2.  <a href="//stats.stackexchange.com" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a>
+3.  <a href="//cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a>
+4.  <a href="//physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a>
+5.  <a href="//mathoverflow.net" title="professional mathematicians">MathOverflow</a>
+6.  <a href="http://stackexchange.com/sites#science">more (7)</a>
+
+</td>
+
+<td>
+
+1.  <a href="//stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a>
+2.  <a href="//meta.stackexchange.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a>
+3.  <a href="//area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a>
+4.  <a href="//careers.stackoverflow.com">Stack Overflow Careers</a>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+<p></div></p>
+<div id="copyright">site design / logo © 2015 stack exchange inc; user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/">cc by-sa 3.0</a> with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/">attribution required</a></div>
+
+<div id="svnrev">rev 2015.5.14.2574</div>
+
+<p></div></p>
+<p></div></p>
+<noscript><div id="noscript-warning">Stack Overflow works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div></noscript>
+
+<script>var p = "http", d = "static"; if (document.location.protocol == "https:") { p += "s"; d = "engine"; } var z = document.createElement("script"); z.type = "text/javascript"; z.async = true; z.src = p + "://" + d + ".adzerk.net/ados.js"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script> <script>var ados = ados || {}; ados.run = ados.run || []; ados.run.push(function () { ados_setKeywords('swift');; ados_load(); });</script> <script>(function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m); })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-5620270-1'); ga('set', 'dimension2', '|swift|'); ga('send', 'pageview'); var _qevents = _qevents || [], _comscore = _comscore || []; (function () { var ssl='https:'==document.location.protocol, s=document.getElementsByTagName('script')[0], qc=document.createElement('script'); qc.async=true; qc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js'; s.parentNode.insertBefore(qc, s); var sc=document.createElement('script'); sc.async=true; sc.src=(ssl?'https://sb':'http://b') + '.scorecardresearch.com/beacon.js'; s.parentNode.insertBefore(sc, s); })(); _comscore.push({ c1: "2", c2: "17440561" }); _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });</script>
+  </section>
+</div>
+</body>
+</html>

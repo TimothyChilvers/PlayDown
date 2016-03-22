@@ -39,6 +39,15 @@ http.createServer(function (req, res) {
 			  }).on('end', function() {
 				var webBody = Buffer.concat(webBodyChunks);
 				var markDown = toMarkdown(webBody.toString('utf8'));
+
+				fileSystem.writeFile(path.join(__dirname, URLHash + ".md"),markDown, function(err) {
+				    if(err) {
+				        return console.log(err);
+				    }
+
+				    console.log("The file was saved!");
+				}); 
+
 	            var $ = cheerio.load(webBody);
 			    var title = $("title").text();
 				console.log("Downloaded " + title);
